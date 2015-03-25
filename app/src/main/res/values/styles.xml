@@ -1,0 +1,23 @@
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/kaustpub_green</item>
+        <item name="colorPrimaryDark">@color/kaustpub_blue</item>
+    </style>
+
+    <!-- Main activity theme. -->
+    <style name="KAUSTPubsTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="android:label">"@string/app_name"</item>
+    </style>
+
+    <!-- Settings activity theme. -->
+    <style name="SettingsTheme" parent="AppTheme">
+    </style>
+
+    <!-- main activity action bar styles -->
+    <style name="ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+
+</resources>

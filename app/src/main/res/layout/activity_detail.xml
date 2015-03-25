@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/publication_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.kaustpub.app.DetailActivity"
+    tools:ignore="MergeRootFrame">
+
+    <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pub_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </WebView>
+    
+    </FrameLayout>

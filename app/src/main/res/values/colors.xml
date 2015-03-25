@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey">#cccccc</color>
+    <color name="kaustpub_green">#ffb9e8b4</color>
+    <color name="kaustpub_orange">#fff4a418</color>
+    <color name="kaustpub_blue">#ff48a0d1</color>
+
+</resources>
